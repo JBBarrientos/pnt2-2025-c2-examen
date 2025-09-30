@@ -6,9 +6,11 @@ import { FaHome } from 'react-icons/fa';
 import { usePathname } from 'next/navigation';
 
 const Menu = () => {
-  const navLinks = [
-      // Agregar aqui los enlaces del menu
-  ];
+  const navLinks = [{
+    path: "/airbnblist",
+    icon: <FaHome className='navIcon'/>,
+    name: "Airbnb List"
+  }];
 
   const pathname = usePathname();
 

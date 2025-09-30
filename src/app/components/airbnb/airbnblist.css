@@ -422,6 +422,25 @@
   text-decoration: underline;
 }
 
+.airbnb-paginator-container {
+  margin: 0 auto;
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+  display: flex;
+  gap: 8px
+}
+
+.airbnb-loader {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-color: #222;
+  border-radius: 100%;
+}
+
 /* Responsive para detalle */
 @media (max-width: 768px) {
   .airbnb-detail-container {
